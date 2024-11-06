@@ -5,7 +5,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Exercises {
+/*
+    Exercises found at:
+    https://codefinity.com/courses/v2/190d2568-3d25-44d0-832f-da03468004c9/c0bcd017-ff39-46ec-bc93-acd569f3497d/d56d7f54-9992-491a-a50f-64ceee652f04
+*/
+
+public class Exercises_1 {
     public List<Integer> exercise1() {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
         List<Integer> result = numbers.stream()
